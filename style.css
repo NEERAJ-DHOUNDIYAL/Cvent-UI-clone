@@ -1,0 +1,1052 @@
+* {
+    margin: 0 px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    height: 100%;
+
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+
+
+
+
+}
+
+.logoborder {
+    height: 50px;
+    width: 140px;
+    margin-left: 20px;
+}
+
+.logo {
+
+    background-image: url(images/logo.png);
+    background-size: cover;
+    height: 35px;
+
+
+}
+
+.dropdown {
+
+    height: 60px;
+    width: 700px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dropbtn {
+
+    color: #4a515c;
+    background-color: white;
+    padding: 13px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn:hover {
+    color: #006ae1;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:active .dropdown-content {
+    display: block;
+}
+
+
+.demo {
+    background-color: #006ae1;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+
+}
+
+.demo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem !important;
+    transform: .3s;
+}
+
+.demo:hover {
+    background-color: #4a97f0;
+    cursor: pointer;
+}
+
+.search {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.search-icon {
+    margin-left: 10px;
+    color: #4a515c;
+
+}
+
+.find {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #4a515c;
+
+    font-family: 'Brandon Printed', sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+
+}
+
+.find:hover {
+    color: #006ae1;
+}
+
+.login {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #4a515c;
+    font-family: 'Brandon Printed', sans-serif;
+    font-weight: 300;
+    font-size: smaller;
+}
+
+.login:hover {
+    color: #006ae1;
+}
+
+.loginimage {
+    margin-left: 30px;
+}
+
+
+
+
+
+.section {
+
+    display: flex;
+
+}
+
+.leftsec {
+    height: 500px;
+    width: 50%;
+    background-color: rgb(208, 233, 252);
+    background-image: url("images/bgimg.png");
+    background-size: cover;
+
+}
+
+.heading {
+    margin-top: 90px;
+    margin-left: 40px;
+
+}
+
+.heading h1 {
+
+    color: #333333;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Brandon Printed', sans-serif;
+}
+
+.checked {
+    list-style: none;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.checked li {
+    font-weight: 400;
+    font-family: 'Brandon Printed', sans-serif;
+    font-size: 18px;
+}
+
+.checked li:before {
+    content: '✓ ';
+    color: #006ae1;
+    font-size: large;
+}
+
+.og {
+    display: flex;
+}
+
+.explore {
+    background-color: #006ae1;
+    height: 50px;
+    width: 190px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 53px;
+
+
+}
+
+.explore a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem !important;
+    transform: .3s;
+    font-weight: 600;
+    font-family: 'Brandon Printed', sans-serif;
+
+}
+
+.explore:hover {
+    background-color: #4a97f0;
+    cursor: pointer;
+
+}
+
+.reqdemo {
+    padding-top: 15px;
+    padding-left: 18px;
+}
+
+.reqdemo a {
+    color: #006ae1;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'BrandonText', sans-serif;
+
+
+}
+
+.reqdemo a:hover {
+    color: rgb(1, 59, 13);
+}
+
+.rightsec {
+    height: 400px;
+    width: 590px;
+    margin-top: 40px;
+    background-color: white;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+
+}
+
+.circle {
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.circleimg {
+    height: 700px;
+    width: 700px;
+    background-image: url("images/circle.png");
+    background-size: cover;
+}
+
+
+.section {
+
+    display: flex;
+    background-color: white;
+
+}
+
+.leftse {
+    height: 630px;
+    width: 50%;
+
+    background-color: white;
+
+}
+
+.leftimg {
+    height: 550px;
+    width: 65%;
+    margin-top: 100px;
+    margin-left: 200px;
+
+    background-image: url("images/image2.jpg");
+
+    background-size: cover;
+}
+
+.rightse {
+    height: 630px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.h2 {
+    font-family: 'Brandon Printed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #333333;
+
+
+}
+
+.para p {
+    color: #69717A;
+    font-family: 'Brandon Printed', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.section {
+
+    display: flex;
+
+}
+
+.lefts {
+    height: 630px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rights {
+    height: 630px;
+    width: 50%;
+
+    background-color: white;
+
+
+}
+
+.rightimg {
+    height: 550px;
+    width: 65%;
+    background-color: white;
+    background-image: url("images/image3.jpg");
+    background-size: cover;
+
+}
+
+.section {
+
+    display: flex;
+    margin-top: 0;
+
+}
+
+.left {
+    height: 630px;
+    width: 50%;
+
+    background-color: white;
+}
+
+.leftimg1 {
+
+    height: 550px;
+    width: 65%;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-image: url("images/image4.jpg");
+    background-size: cover;
+    background-color: white;
+
+}
+
+.right {
+    height: 630px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+
+.nextcontainer {
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1 {
+    background-color: white;
+    height: 150px;
+
+}
+
+.h2heading {
+    font-size: x-large;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+}
+
+.para {
+    font-size: medium;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+
+}
+
+.para a {
+    color: #006ae1;
+    font-weight: 800;
+}
+
+.upperbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.lowerbox {
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.box1 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+
+}
+
+.boxlogo {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("images/box1.jpg");
+    background-size: cover;
+}
+
+.boxcontent {
+    margin-left: 10px;
+}
+
+.boxcontent h4 {
+    font-size: larger;
+    font-family: 'Brandon Printed', sans-serif;
+    color: #333333;
+}
+
+.boxcontent a {
+    font-size: large;
+    text-decoration: none;
+    color: #006ae1;
+}
+
+.box2 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.boxlogo2 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("images/box2.jpg");
+    background-size: cover;
+}
+
+.box3 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.boxlogo3 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("images/box3.jpg");
+    background-size: cover;
+}
+
+.box4 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.boxlogo4 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("images/box4.jpg");
+    background-size: cover;
+}
+
+.box5 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.boxlogo5 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("images/box5.jpg");
+    background-size: cover;
+}
+
+.box6 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.boxlogo6 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("images/box6.jpg");
+    background-size: cover;
+}
+
+.allproducts {
+    background-color: #006ae1;
+    height: 45px;
+    width: 170px;
+    margin-left: 45%;
+    border-radius: 5px;
+
+
+}
+
+.allproducts a {
+    color: #fefefe;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1rem !important;
+    transform: .3s;
+
+}
+
+.allproducts:hover {
+    background-color: #4a97f0;
+    cursor: pointer;
+}
+
+
+.trustedby h2 {
+    font-size: 26px;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.companylogo {
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.company1 {
+    height: 60px;
+    width: 120px;
+    background-image: url("images/infosys.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.company2 {
+    height: 60px;
+    width: 160px;
+    background-image: url("images/tcs.jpg");
+    background-size: cover;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.company3 {
+    height: 60px;
+    width: 120px;
+    background-image: url("images/jtb.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.company4 {
+    height: 60px;
+    width: 150px;
+    background-image: url("images/samsung.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.company5 {
+    height: 60px;
+    width: 150px;
+    background-image: url("images/metric.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.casestudy {
+    background-color: #006ae1;
+    height: 45px;
+    width: 170px;
+    margin-left: 45%;
+    border-radius: 5px;
+
+}
+
+.casestudy a {
+    color: #fefefe;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    font-size: x-large;
+    font-weight: 900;
+    font-size: 1rem !important;
+    transform: .3s;
+
+}
+
+.casestudy:hover {
+    background-color: #4a97f0;
+    cursor: pointer;
+}
+
+.eventcontainer{
+    background-color: #eee;
+}
+.eventmarket {
+    background-color:#eee;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventheading {
+    background-color:#eee;
+    height: 200px;
+
+}
+
+.h2heading {
+    font-size: x-large;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #eee;
+}
+
+.para {
+    font-size: medium;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+    background-color:#eee;
+
+}
+
+.para a {
+    color: #006ae1;
+    font-weight: 800;
+}
+
+.eventupperbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    background-color: #eee;
+}
+
+.eventbox1 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+
+}
+
+.eventboxlogo {
+    height: 210px;
+    width: 350px;
+   
+    background-image: url("images/event1.jpg");
+    background-size: cover;
+}
+
+.eventboxcontent {
+    margin-left: 10px;
+}
+
+.eventboxcontent h4 {
+    font-size: larger;
+    font-family: 'Brandon Printed', sans-serif;
+    color: #333333;
+}
+
+.eventboxcontent a {
+    font-size: large;
+    text-decoration: none;
+    color: #006ae1;
+}
+
+.eventbox2 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.eventboxlogo2 {
+    height: 210px;
+    width: 350px;
+    
+    background-image: url("images/event2.jpg");
+    background-size: cover;
+}
+
+.eventbox3 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.eventboxlogo3 {
+    height: 210px;
+    width: 350px;
+    
+    background-image: url("images/event3.jpg");
+    background-size: cover;
+}
+.eventYE {
+    background-color: #006ae1;
+    height: 45px;
+    width: 170px;
+    margin-left: 45%;
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+
+.eventYE a {
+    color: #fefefe;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    font-size: x-large;
+    font-weight: 900;
+    font-size: 1rem !important;
+    transform: .3s;
+
+}
+
+.eventYE:hover {
+    background-color: #4a97f0;
+    cursor: pointer;
+}
+
+
+.hospitality {
+    background-color:#eee;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hosheading1 {
+    background-color:#eee;
+    height: 150px;
+
+}
+
+.h2heading {
+    font-size: x-large;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+}
+
+.para {
+    font-size: medium;
+    font-family: 'Brandon Printed', sans-serif;
+    text-align: center;
+
+}
+
+.para a {
+    color: #006ae1;
+    font-weight: 800;
+}
+
+.hosupperbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #eee;
+}
+
+.hosbox1 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+
+}
+
+.hosboxlogo {
+    height: 210px;
+    width: 350px;
+   
+    background-image: url("images/hos1.jpg");
+    background-size: cover;
+}
+
+.hosboxcontent {
+    margin-left: 10px;
+}
+
+.hosboxcontent h4 {
+    font-size: larger;
+    font-family: 'Brandon Printed', sans-serif;
+    color: #333333;
+}
+
+.hosboxcontent a {
+    font-size: large;
+    text-decoration: none;
+    color: #006ae1;
+}
+
+.hosbox2 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.hosboxlogo2 {
+    height: 210px;
+    width: 350px;
+
+    background-image: url("images/hos2.jpg");
+    background-size: cover;
+}
+
+.hosbox3 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+}
+
+.hosboxlogo3 {
+    height: 210px;
+    width: 350px;
+  
+    background-image: url("images/hos3.jpg");
+    background-size: cover;
+}
+.hospro{
+    background-color: #006ae1;
+    height: 40px;
+    width: 200px;
+    margin-left: 45%;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+
+.hospro a {
+    color: #fefefe;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: x-large;
+    font-weight: 900;
+    font-size: 1rem !important;
+    transform: .3s;
+
+}
+
+.hospro:hover {
+    background-color: #4a97f0;
+    cursor: pointer;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #1c2c43;
+    color:white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .85rem;
+}
+.clogo{
+    background-image: url("images/cventlogo.jpg");
+    background-size: cover;
+    height: 24px;
+    width: 120px;
+}
+.fb{
+    margin-left: 20px;
+    height: 20px;
+    font-size: large;
+}
+.fb a{
+    color: white;
+}
+
+.x{
+    margin-left: 20px;
+    height: 20px;
+    font-size: large;
+}
+.x a{
+    color: white;
+}
+
+.linkin{
+    margin-left: 20px;
+    height: 20px;
+    font-size: large;
+}
+.linkin a{
+    color: white;
+}
+
+.utube{
+    margin-left: 20px;
+    height: 20px;
+    font-size: large;
+}
+.utube a{
+    color: white;
+}
+
+.insta{
+    margin-left: 20px;
+    height: 20px;
+    font-size: large;
+}
+.insta a{
+    color: white;
+}
+.foot-panel2{
+    background-color: #1c2c43;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 10px;
+}
+ul p{
+    font-size: larger;
+}
+ul a{
+    display: block;
+    color:#dddddd;
+    font-size: .85rem;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: medium;
+}
+.foot-panel3{
+    background-color: #1c2c43;
+    color:white;
+    border-top: .5px solid white;
+    height: 120px;
+   
+    
+   
+}
+.foot-panel3 p{
+    margin-left:180px;
+}
+
+
